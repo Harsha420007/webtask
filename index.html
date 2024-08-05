@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+   
+        table{
+            border-collapse: collapse;
+            height:200px;
+            width: 300px;
+            text-align:center;
+            border: 15px solid lightcoral;
+            color: white;
+        }
+        .box{
+            background-color:lightblue;
+            border: 10px solid lightcoral;
+        }
+        .aside{
+            border: 10px solid lightcoral;
+            background-color:lightseagreen;
+            height:40px;
+            width: 80px;
+        }
+        .article{
+            border: 10px solid lightsalmon;
+            background-color: lightsalmon;
+            border: 1px solid;
+        }
+        .image{
+            border: 10px solid lightsalmon;
+            background-color: lightgray;
+        
+        }
+        </style>
+        <body>
+            <table border="1" align="center">
+                <tr>
+                    <td colspan="4" class="box">Header</td>
+                </tr>
+                <tr>
+                    <td rowspan="2" class="aside">Aside</td>
+                    <td colspan="3" class="article">Article</td>
+                </tr>
+                <td class="image">image</td>
+                <td class="image">image</td>
+                <td class="image">image</td>
+                <tr>
+                    <td colspan="4" class="box">footer</td>
+                </tr>
+        
+            </table>
+</body>
+</html>
